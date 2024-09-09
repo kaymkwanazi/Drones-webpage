@@ -1,9 +1,11 @@
 import React from 'react'
+import home from '../src/assets/home_background.jpg'
 
 export const Homepage = () => {
   return (
-    <div>
-         <div className='homepage'>
+   
+    <div className='section'>
+        <div className='homepage'>
             <nav>
                 <h4 className="logo">D<span>Z</span></h4>
                 <ul>
@@ -21,6 +23,8 @@ export const Homepage = () => {
         </div>
 
     </div>
+         
+    
   );
 }
 
